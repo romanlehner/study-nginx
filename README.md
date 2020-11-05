@@ -12,7 +12,7 @@ To run the webservice use docker compose:
 
 	docker-compose up
 
-In the browser use:
+In the browser call:
 
 	localhost:8080
 
@@ -65,5 +65,5 @@ Note: When running the command the first time I had to create the /ssl/private a
 # Coming Next
 The online course includes a configuration for dynamic content with PHP and a MongoDB database, which is not part of this docker experiment. When I have time I will add these by creating a Dockerfile. 
 
-# Last Notes to the course
+# Last notes to the course
 The online course also contained instructions to use nginx as a proxy pass and loadbalancer. But with docker the instructions couldn't be replicated. The root cause wasn't explored yet. 
