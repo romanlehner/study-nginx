@@ -62,8 +62,5 @@ The SSL key and cert are configured as follows:
 
 Note: When running the command the first time I had to create the /ssl/private and /ssl/certs folder manually. 
 
-# Coming Next
-The online course includes a configuration for dynamic content with PHP and a MongoDB database, which is not part of this docker experiment. When I have time I will add these by creating a Dockerfile. 
-
 # Last notes to the course
-The online course also contained instructions to use nginx as a proxy pass and loadbalancer. But with docker the instructions couldn't be replicated. The root cause wasn't explored yet. 
+The online course includes a configuration for dynamic content with PHP and a MongoDB database, which is not part of this docker experiment. Furthermore the course contained instructions to use nginx as a proxy pass and loadbalancer. But with docker the instructions couldn't be replicated. The root cause wasn't explored yet. 
