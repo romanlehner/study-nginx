@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  nginx:
+    image: nginx:1.19 
+    volumes:
+      - ${PWD}/conf.d/:/etc/nginx/conf.d/
+      - ${PWD}/wisdompetmed.local/:/var/www/wisdompetmed.local/
+      - ${PWD}/auth/:/etc/nginx/auth/
+      - ${PWD}/ssl/:/etc/ssl/
+    ports: 
+      - 8080:80
